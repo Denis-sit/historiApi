@@ -27,8 +27,9 @@ document.addEventListener('DOMContentLoaded', function(){
     })
     
     function closingBlocksWithInformation(block){
-        block.forEach((item) =>{
+        block.forEach((item, i) =>{
             item.classList.add('hide');
+            questionButton[i].classList.remove('open');
         })
     }
 
