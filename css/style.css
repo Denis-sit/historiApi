@@ -108,6 +108,7 @@ a{
     background-position-y: center;
     background-repeat: no-repeat;
     background-size: 44px;
+    cursor: pointer;
 }
 
 .button-nav__registration{
